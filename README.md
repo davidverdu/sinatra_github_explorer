@@ -1,4 +1,4 @@
-# sinatra_github_explorer
+# Sinatra GitHub Explorer
 A web application written in Ruby to explore GitHub repositories by using their public API
 
 ## Run as a docker container
@@ -40,4 +40,24 @@ Go to project folder, both locally or inside the container, and run RSpec
 ```
 rspec tests.rb
 ```
+## Developing
 
+The code follows this structure:
+
+* server.rb: is the Ruby server application run by Sinatra
+* models folder: contains the model classes
+* views: contains the ERB view templates of the appication
+* scss: contains the SCSS stylesheet source files. They will be transformed into css files in public folder
+* public: contains the static files served to the browser, such as minimized CSS, javascripts, images, fonts.
+* tests.rb: contains the RSpec tests for this application
+* Gemfile: contains Ruby gem dependencies
+* package.json: Node.js dependencies
+* gulpfile.js: contains Gulp task definitions, such as gulp css
+* Dockerfile: contains Docker container definition, ready to run in production
+
+To generate CSS files in public folder out of the SCSS sources run:
+```
+npm install
+gulp css
+```
+(please note that you will be required to install node.js and npm to run this)
