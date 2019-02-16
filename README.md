@@ -18,8 +18,8 @@ Finally, browse with your navigator http://localhost:4567
 ## Run in your host without Docker
 
 First, you need to install Ruby 2.6.0, for example, by using a Ruby Version Manager like 
-[rbenv](https://github.com/rbenv/rbenv rbenv) or [rvm](https://github.com/rvm/rvm rvm). You can have
-a look to my [tutorial](https://github.com/davidverdu/rails_tutorial/tree/master/01_install_ruby tutorial) to
+[rbenv](https://github.com/rbenv/rbenv) or [rvm](https://github.com/rvm/rvm). You can have
+a look to my [tutorial](https://github.com/davidverdu/rails_tutorial/tree/master/01_install_ruby) to
 install Ruby in Ubuntu with rbenv.
 
 Then, go to the project folder and install gems:
