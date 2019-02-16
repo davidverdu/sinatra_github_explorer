@@ -108,7 +108,7 @@ header.masthead h1 {
   background: url("../img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
 }
 
 .call-to-action .overlay {
@@ -119,6 +119,20 @@ header.masthead h1 {
   top: 0;
   left: 0;
   opacity: 0.3;
+}
+
+.call-to-action img.spinner-border {
+  margin-top: 3rem;
+  visibility: hidden;
+}
+
+.search-results h2 {
+  padding-top: 3rem;
+}
+
+.no-results-found h2 {
+  padding-top: 3rem;
+  padding-bottom: 12rem;
 }
 
 footer.footer {

@@ -33,7 +33,7 @@
   </nav>
 
   <!-- Search form -->
-  <section class="call-to-action text-white text-center" style="padding-bottom: 2rem;">
+  <section class="call-to-action text-white text-center">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -55,7 +55,7 @@
       </div>
       <div class="row">
         <div class="col-12 col-md-12">
-          <img class="spinner-border" style="margin-top: 3rem; visibility: hidden;">
+          <img class="spinner-border">
         </div>
       </div>
     </div>
@@ -63,10 +63,10 @@
 
   <% if params[:query] and !params[:query].empty? %>
     <% if @repositories and !@repositories.empty? %>
-      <section class="text-center bg-light">
+      <section class="search-results text-center bg-light">
         <div class="overlay"></div>
         <div class="container">
-          <h2 class="mb-5" style="padding-top: 3rem;">Search results...</h2>
+          <h2 class="mb-5">Search results...</h2>
           <% @repositories.each do |repository| %>
               <div class="row">
                 <div class="col-md-12">
@@ -80,10 +80,10 @@
         </div>
       </section>
     <% else %>
-        <section class="text-center bg-light">
+        <section class="no-results-found text-center bg-light">
           <div class="overlay"></div>
           <div class="container">
-            <h2 class="mb-5" style="padding-top: 3rem; padding-bottom: 12rem;">No results found</h2>
+            <h2 class="mb-5">No results found</h2>
           </div>
         </section>
     <% end %>
