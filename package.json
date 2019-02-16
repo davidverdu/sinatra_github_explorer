@@ -1,0 +1,43 @@
+{
+    "title": "Sinatra GitHub Explorer",
+    "name": "sinatra-github-explorer",
+    "version": "1.0.0",
+    "description": "An HTML landing page template built with Bootstrap",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "ruby",
+        "sinatra",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://github.com/davidverdu/sinatra_github_explorer",
+    "bugs": {
+        "url": "https://github.com/davidverdu/sinatra_github_explorer/issues",
+        "email": "davidverdu81@gmail.com"
+    },
+    "license": "MIT",
+    "author": "David Verdú",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/davidverdu/sinatra_github_explorer.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.7.0",
+        "bootstrap": "4.2.1",
+        "jquery": "3.3.1",
+        "simple-line-icons": "^2.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "gulp": "4.0.0",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2"
+    }
+}
